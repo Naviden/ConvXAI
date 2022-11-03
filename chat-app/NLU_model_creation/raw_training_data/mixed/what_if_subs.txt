@@ -1,0 +1,6 @@
+what if i change the FEAT to NEW_VAL for INS ?
+what would be the output if i change the FEAT to NEW_VAL for INS ?
+changing the FEAT to NEW_VAL how will change the output for INS ?
+What is the impact of changing FEAT to NEW_VAL for INS ?
+How changing the FEAT to NEW_VAL will change the output of INS ?
+what is the impact of changing the FEAT to NEW_VAL on the prediction of this instance? 

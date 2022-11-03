@@ -1,0 +1,16 @@
+what is the feature importance ?
+show me the feature importance
+give me the feature importance
+what is the contribution of each feature ?
+how features contribute in predictions ? 
+what is the importance of each feature for predictions ?
+what is the importance of each feature ?
+to what extent does FEAT affect the prediction outcome ?
+how much was FEAT taken in to account ?
+does FEAT affect the outcome ?
+what is the weight of FEAT to predict people incomes ?
+did the model use FEAT to classify the records ?
+how was outcome achieved ?
+What feature was used the most to achieve prediction outcomes?
+What feature did it use the most to the predictions ?
+Which feature did the model use the most for the classification ?

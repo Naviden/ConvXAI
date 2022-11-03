@@ -1,0 +1,7 @@
+why the model predicted INS as ACT_LAB but the INS as DES_LAB ?
+why DES_LAB is predicted for INS but not for INS ?
+why INS ends as ACT_LAB but INS as DES_LAB ?
+why the model has decided to predict INS as ACT_LAB but not INS ?
+why INS is predicted as ACT_LAB while INS is predicted a DES_LAB ?
+why the model has decided to go for ACT_LAB for INS while the INS is classified as DES_LAB ?
+why I see ACT_LAB for INS while INS has ended as DES_LAB ?

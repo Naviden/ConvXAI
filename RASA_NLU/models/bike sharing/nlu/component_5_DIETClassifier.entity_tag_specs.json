@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-feature",
+      "2": "I-feature",
+      "3": "L-feature",
+      "4": "U-feature",
+      "5": "B-record",
+      "6": "I-record",
+      "7": "L-record",
+      "8": "U-record",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-feature": 1,
+      "I-feature": 2,
+      "L-feature": 3,
+      "U-feature": 4,
+      "B-record": 5,
+      "I-record": 6,
+      "L-record": 7,
+      "U-record": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

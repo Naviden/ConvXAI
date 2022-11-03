@@ -1,0 +1,13 @@
+why the INS is not predicted LEVEL ?
+Why the model decided to not go LEVEL for the INS ?
+why the model predicted 123 as the output for the INS instead of a LEVEL value ?
+why you predicted 42 as the output for the INS instead of a LEVEL value ?
+for the INS why the model give 96 instead of a LEVEL value ?
+Why 24 instead of a LEVEL value for the INS ?
+why INS is ended up as 768 instead of a LEVEL value ?
+why 342 and not a LEVEL value for INS ?
+How come 98 and not a LEVEL value for INS ?
+for INS why the model predicted 57 and not a LEVEL value ?
+Why not 765 for INS instead of a LEVEL value ?
+why the model goes for the 75 and not a LEVEL value for the INS ?
+What is the reason for which the model predicted INS as 533 and not a LEVEL value ?

@@ -1,0 +1,13 @@
+why the INS is not classified as DES_LAB ?
+why the model didn't classify INS as DES_LAB ?
+i was expecting to see DES_LAB as the class of the INS !
+Why the model decided to not go for DES_LAB for the INS ?
+for the INS , why not the DES_LAB instead of the current one ?
+why the model didn't predicted DES_LAB as the output for the INS ?
+why you didn't predicted DES_LAB as the output for the INS ?
+for the INS why the model didn't give DES_LAB ?
+Why not DES_LAB instead for the INS ?
+why INS isn't ended up as DES_LAB ?
+for INS why the model didn't predicted DES_LAB ?
+Why not DES_LAB for INS ?
+What is the reason for which the model hasn't predicted INS as DES_LAB ?

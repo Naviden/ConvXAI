@@ -1,0 +1,116 @@
+
+- intent: list_features
+  examples: |
+    - what are the features the model used for classifying [instance 38](record) ?
+    - what is the role of each feature in the classifying [instance 73](record) ?
+    - what is the feature importance for [instance 20](record) ?
+    - how the model used features in order to classify [instance 10](record) ?
+    - what is the order of features used for classifying [instance 10](record) ?
+    - show me the feature importance of [instance 105](record) ?
+    - list the feature importance of record [instance 100](record)
+    - what are the feature's contribution for [instance 52](record) ?
+    - how each feature contributes in the outcome of the [instance 131](record) ?
+    - give me the feature importance for the [instance 126](record)
+    - show me the feature importance of the [instance 19](record)
+    - what are the features used for predicting [instance 64](record) ?
+    - which words contributed to the prediction of the [instance 88](record) ?
+
+
+
+- intent: most_important_feature
+  examples: |
+    - which feature contributes the most for [instance 119](record) ?
+    - what is the most important feature in [instance 121](record) ?
+    - what feature has the highest impact on the outcome of the [instance 150](record) ?
+    - what is the most influential feature for the outcome of the [instance 10](record) ?
+    - show me the most important feature for the [instance 52](record)
+    - among all features, which one contributes the most on prediction of the [instance 25](record) ?
+    - what is the most important feature for the [instance 28](record) ?
+    - what is the most important feature in [instance 101](record) ?
+
+
+- intent: why_not
+  examples: |
+    - why the [instance 97](record) is classified as [atheism](act_label) , instead of [atheism](des_label) ?
+    - why the model didn't classify [instance 4](record) as [atheism](des_label) ?
+    - i was expecting to see [atheism](des_label) as the class of the [instance 110](record) !
+    - why the model decided to go for [christian](act_label) instead of [christian](des_label) for the [instance 50](record) ?
+    - for the [instance 112](record) , why not the [christian](des_label) instead of the current one ?
+    - why the model predicted [christian](act_label) as the output for the [instance 108](record) instead of [atheism](des_label) ?
+    - why you predicted [atheism](act_label) as the output for the [instance 113](record) instead of [atheism](des_label) ?
+    - for the [instance 113](record) why the model give [christian](act_label) instead of [christian](des_label) ?
+    - why [atheism](act_label) instead of [christian](des_label) for the [instance 148](record) ?
+    - why [instance 74](record) is ended up as [christian](act_label) instead of [christian](des_label) ?
+    - why [christian](act_label) and not [atheism](des_label) for [instance 71](record) ?
+    - how come [christian](act_label) and not [atheism](des_label) for [instance 74](record) ?
+    - for [instance 128](record) why the model predicted [christian](act_label) and not [christian](des_label) ?
+    - why not [atheism](des_label) for [instance 82](record) instead of [christian](act_label) ?
+    - why the model goes for the [christian](act_label) and not the [atheism](des_label) for the [instance 78](record) ?
+    - what is the reason for which the model predicted [instance 121](record) as [christian](act_label) and not [christian](des_label) ?
+    - what is the reason for which the model predicted [instance 11](record) as [christian](act_label) instead of predicting [christian](des_label) ?
+
+- intent: why_this
+  examples: |
+    - why [instance 46](record) is classified as [atheism](label) ?
+    - why the model classified [instance 63](record) as [atheism](label) ?
+    - why the model has classified [instance 5](record) as [atheism](label) ?
+    - why the model sees [instance 21](record) as [christian](label) ?
+    - why the model predicted this class for [instance 11](record) ?
+    - why [instance 70](record) becomes [atheism](label) ?
+    - how come model predicts [atheism](label) for [instance 107](record) ?
+    - why you classified [instance 70](record) as [atheism](label) ?
+    - why the model decided to predict this label for [instance 83](record) ?
+    - why i see such a prediction for [instance 32](record) ?
+    - why the model decided to classify [instance 0](record) as [christian](label) ?
+    - on what basis the [instance 136](record) has been predicted as [christian](label) ?
+    - why the [instance 11](record) is classified as [christian](label) ?
+    - how the model came up with such label for [instance 52](record) ?
+    - how the model predicted this label for [instance 112](record) ?
+    - how the model has predicted [christian](label) for [instance 62](record) ?
+    - why for the [instance 59](record) such a label has been predicted?
+    - what makes the model to categorize [instance 110](record) as a [atheism](label) ?
+
+
+- intent: why_not_this_record
+  examples: |
+    - why the model predicted [instance 40](record) as [atheism](act_label) but the [instance 24](record) as [christian](des_label) ?
+    - why [atheism](des_label) is predicted for [instance 150](record) but not for [instance 11](record) ?
+    - why [instance 59](record) ends as [christian](act_label) but [instance 140](record) as [christian](des_label) ?
+    - why the model has decided to predict [instance 142](record) as [atheism](act_label) but not [instance 3](record) ?
+    - why [instance 98](record) is predicted as [atheism](act_label) while [instance 70](record) is predicted a [atheism](des_label) ?
+    - why the model has decided to go for [atheism](act_label) for [instance 109](record) while the [instance 108](record) is classified as [atheism](des_label) ?
+    - why i see [atheism](act_label) for [instance 101](record) while [instance 110](record) has ended as [christian](des_label) ?
+
+- intent: what_if_add
+  examples: |
+    - what if i add [others.](token) to [instance 69](record) ?
+    - what would be the output if i add [giving](token) to [instance 42](record) ?
+    - adding [people](token) how will change the output for [instance 120](record) ?
+    - what is the impact of adding [brought](token) to [instance 116](record) ?
+    - how adding [mozumder](token) will change the output of [instance 7](record) ?
+    - what is the impact of adding [health](token) on the prediction of [instance 107](record)
+    - what happens if i add [race.](token) to [instance 150](record) ?
+    - what if i add [while](token) to [instance 72](record) ?
+    - what is the impact of adding [others.](token) to [instance 44](record) ?
+    - what would happen if i add [brought](token) to [instance 141](record) ?
+    - what is the outcome of adding [giving](token) to [instance 60](record) ?
+    - how adding [thread](token) to [instance 49](record) will change the output ?
+    - how adding [catholic](token) will impact the outcome ?
+    - add [christians](token) to [instance 108](record)
+
+- intent: what_if_del
+  examples: |
+    - what if i remove [father](token) in [instance 87](record) ?
+    - what would be the output if i remove [others.](token) from [instance 83](record) ?
+    - removing [race.](token) how will change the output for [instance 105](record) ?
+    - what is the impact of removing [again,](token) from [instance 113](record) ?
+    - how removing [their](token) will change the output of [instance 42](record) ?
+    - what is the impact of removing [people](token) on the prediction of this instance?
+    - what happens if i remove [catholics](token) from [instance 91](record) ?
+    - what if i remove [race.](token) from [instance 45](record) ?
+    - what is the impact of removing [while](token) from [instance 55](record) ?
+    - what would happen if i remove [giving](token) from [instance 79](record) ?
+    - what is the outcome of removing [catholics](token) from [instance 37](record) ?
+    - how removing [catholics](token) from [instance 48](record) will change the output ?
+    - how removing [accepted](token) will impact the outcome ?
+    - remove [catholics](token) from [instance 105](record)

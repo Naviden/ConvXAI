@@ -1,0 +1,95 @@
+****************************************
+memory is loaded:
+{'dataset': '20_news_group',
+ 'entities': {'act_label': None,
+              'des_label': None,
+              'feature': None,
+              'label': None,
+              'new_val': None,
+              'record': None,
+              'token': None},
+ 'intent': None,
+ 'model': 'random_forest',
+ 'profile': None}
+****************************************
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+data_types supported by 20_news_group dataset: ['textual_cat']
+data_types supported by random_forest model: ['tabular_num_cat', 'textual_cat']
+matched explainers --> ['lime', 'fake']
+========================================
+Preparing dataset
+========================================
+========================================
+Creating model
+========================================
+========================================
+all values have been initialized. The following data are being saved as brain:
+dataset --> 20_news_group
+model --> random_forest
+profile --> end_user
+========================================
+resp --> {'msg': "Great! Now that I know what we're talking about you can ask me your questions :)", 'intention': 'wants_answer', 'end_of_conversation': False}
+{'msg': "Great! Now that I know what we're talking about you can ask me your questions :)", 'intention': 'wants_answer', 'end_of_conversation': False}
+127.0.0.1 - - [02/Dec/2021 07:27:59] "POST /api/get-message HTTP/1.1" 200 -
+127.0.0.1 - - [02/Dec/2021 07:28:35] "OPTIONS /api/get-message HTTP/1.1" 200 -
+Fetching message
+User message is: why the model predicted instance 11 as w ^
+****************************************
+memory is loaded:
+{'dataset': '20_news_group',
+ 'entities': {'act_label': None,
+              'des_label': None,
+              'feature': None,
+              'label': None,
+              'new_val': None,
+              'record': None,
+              'token': None},
+ 'intent': None,
+ 'model': 'random_forest',
+ 'profile': 'end_user'}
+****************************************
+Chatbot is asking DST to take forward the conversation
+starting values:
+----------------------------------------
+memory: {'dataset': '20_news_group', 'model': 'random_forest', 'profile': 'end_user', 'intent': None, 'entities': {'record': None, 'label': None, 'act_label': None, 'des_label': None, 'feature': None, 'new_val': None, 'token': None}}
+missing: []
+filling: False
+mind_change: False
+can_start: True
+----------------------------------------
+2021-12-02 07:28:36.540817: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-12-02 07:28:36.594252: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fe429aa1890 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-12-02 07:28:36.594302: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+extracted info: {'intent': {'id': -6090134443293808418, 'name': 'why_this', 'confidence': 0.9239314794540405}, 'entities': {'record': 'instance 11'}, 'text': 'why the model predicted instance 11 as w ^'}
+ddt: textual_cat
+mdt: ['tabular_num_cat', 'textual_cat']
+memory --> {'dataset': '20_news_group', 'model': 'random_forest', 'profile': 'end_user', 'intent': None, 'entities': {'record': None, 'label': None, 'act_label': None, 'des_label': None, 'feature': None, 'new_val': None, 'token': None}}
+Detcted intent --> why_this
+Detcted entities --> {'record': 'instance 11'}
+must have entities --> ['record', 'label']
+missing_things --> {'label'}
+here missing --> []
+missing --> ['label']
+Detected --> Not filling
+filling --> False
+resp --> {'msg': 'What is the value for label ?', 'intention': 'wants_answer', 'end_of_converstaion': False}
+{'msg': 'What is the value for label ?', 'intention': 'wants_answer', 'end_of_converstaion': False}
+127.0.0.1 - - [02/Dec/2021 07:28:46] "POST /api/get-message HTTP/1.1" 200 -
+127.0.0.1 - - [02/Dec/2021 07:28:49] "OPTIONS /api/get-message HTTP/1.1" 200 -
+Fetching message
+User message is: w
+****************************************
+memory is loaded:
+{'dataset': None,
+ 'entities': {'act_label': None,
+              'des_label': None,
+              'feature': None,
+              'label': None,
+              'new_val': None,
+              'record': 'instance 11',
+              'token': None},
+ 'intent': 'why_this',
+ 'model': None,
+ 'profile': None}
+****************************************

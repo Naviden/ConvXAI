@@ -1,0 +1,60 @@
+
+- intent: most_important_feature
+  examples: |
+    - which feature contributes the most for [instance 114](record) ?
+    - what is the most important feature in [instance 11](record) ?
+    - what feature has the highest impact on the outcome of the [instance 7](record) ?
+    - what is the most influential feature for the outcome of the [instance 128](record) ?
+    - show me the most important feature for the [instance 83](record) ?
+    - among all features, which one contributes the most on prediction of the [instance 42](record) ?
+
+- intent: why_this
+  examples: |
+    - why [instance 3](record) is classified as lab?
+    - why the model classified [instance 68](record) as [setosa](label) ?
+    - why the model has classified [instance 88](record) as lab?
+    - why the model sees [instance 0](record) as [virginica](label) ?
+    - why the model predicted this class for ins?
+    - why [instance 14](record) becomes [setosa](label) ?
+    - how come model predicts [setosa](label) for ins?
+    - why you classified [instance 73](record) as [virginica](label) ?
+    - why the model decided to predict this label for [instance 112](record) ?
+    - why i see such a prediction for [instance 42](record) ?
+    - why the model decided to classify [instance 102](record) as [versicolor](label) ?
+    - on what basis the [instance 13](record) has been predicted as [versicolor](label) ?
+    - why the [instance 128](record) is classified as [virginica](label) ?
+    - how the model came up with such label for [instance 11](record) ?
+    - how the model predicted this label for [instance 122](record) ?
+    - how the model has predicted [setosa](label) for [instance 137](record) ?
+    - why for the [instance 58](record) such a label has been predicted?
+    - what makes the model to categorize [instance 131](record) as a [versicolor](label) ?
+
+- intent: why_not
+  examples: |
+    - why the [instance 4](record) is classified as [virginica](act_label) , instead of [virginica](des_label) ?
+    - why the model didn't classify [instance 25](record) as [setosa](des_label) ?
+    - i was expecting to see [versicolor](des_label) as the class oof the [instance 111](record) !
+    - why the model decided to go for [setosa](act_label) instead of [virginica](des_label) for the [instance 14](record) ?
+    - for the [instance 45](record) , why not the [setosa](des_label) instead of the current one ?
+    - why the model predicted [virginica](act_label) as the output for the [instance 47](record) instead of [virginica](des_label) ?
+
+- intent: list_features
+  examples: |
+    - what are the features the model used for classifying [instance 77](record) ?
+    - what is the role of each feature in the classifying [instance 150](record) ?
+    - what is the feature importance for [instance 15](record) ?
+    - how the model used features in order to classify [instance 136](record) ?
+    - what is the order of features used for classifying [instance 84](record) ?
+    - show me the feature importance of [instance 56](record) ?
+    - list the feature importance of record [instance 140](record)
+    - what are the feature's contribution for [instance 91](record) ?
+    - how each feature contributes in the outcome of the [instance 64](record) ?
+
+- intent: what_if_subs
+  examples: |
+    - what if i change the [petal_width](feature) to [15](new_val) for [instance 115](record) ?
+    - what would be the output if i change the [sepal_width](feature) to [16](new_val) for [instance 27](record) ?
+    - changing the [petal_width](feature) to [0.6](new_val) how will change the output for [instance 16](record) ?
+    - what is the impact of changing [petal_length](feature) to [60](new_val) for [instance 44](record) ?
+    - how changing the [petal_width](feature) to [6](new_val) will change the output of [instance 97](record) ?
+    - what is the impact of changing the [sepal_width](feature) to [0.98](new_val) on the prediction of this instance?

@@ -1,0 +1,188 @@
+
+- intent: list_features
+  examples: |
+    - what are the features the model used for classifying [instance 27](record) ?
+    - what is the role of each feature in the classifying [instance 18](record) ?
+    - what is the feature importance for [instance 134](record) ?
+    - how the model used features in order to classify [instance 78](record) ?
+    - what is the order of features used for classifying [instance 34](record) ?
+    - show me the feature importance of [instance 61](record) ?
+    - list the feature importance of record [instance 96](record)
+    - what are the feature's contribution for [instance 28](record) ?
+    - how each feature contributes in the outcome of the [instance 114](record) ?
+    - give me the feature importance for the [instance 56](record)
+    - show me the feature importance of the [instance 78](record)
+    - what are the features used for predicting [instance 53](record) ?
+    - which words contributed to the prediction of the [instance 101](record) ?
+    - to what extent does [proscribed](feature) affect the prediction of [instance 15](record) ?
+
+- intent: most_important_feature
+  examples: |
+    - which feature contributes the most for [instance 58](record) ?
+    - what is the most important feature in [instance 105](record) ?
+    - what feature has the highest impact on the outcome of the [instance 105](record) ?
+    - what is the most influential feature for the outcome of the [instance 62](record) ?
+    - show me the most important feature for the [instance 145](record)
+    - among all features, which one contributes the most on prediction of the [instance 41](record) ?
+    - what is the most important feature for the [instance 116](record) ?
+    - what is the most important feature in [instance 16](record) ?
+
+- intent: why_not
+  examples: |
+    - why the [instance 135](record) is classified as [christian](act_label) , instead of [christian](des_label) ?
+    - why the model decided to go for [christian](act_label) instead of [atheism](des_label) for the [instance 68](record) ?
+    - why the model predicted [atheism](act_label) as the output for the [instance 149](record) instead of [atheism](des_label) ?
+    - why you predicted [atheism](act_label) as the output for the [instance 41](record) instead of [atheism](des_label) ?
+    - for the [instance 1](record) why the model give [atheism](act_label) instead of [atheism](des_label) ?
+    - why [atheism](act_label) instead of [atheism](des_label) for the [instance 24](record) ?
+    - why [instance 67](record) is ended up as [atheism](act_label) instead of [atheism](des_label) ?
+    - why [christian](act_label) and not [christian](des_label) for [instance 110](record) ?
+    - how come [atheism](act_label) and not [christian](des_label) for [instance 108](record) ?
+    - for [instance 13](record) why the model predicted [christian](act_label) and not [atheism](des_label) ?
+    - why not [atheism](des_label) for [instance 85](record) instead of [christian](act_label) ?
+    - why the model goes for the [atheism](act_label) and not the [atheism](des_label) for the [instance 25](record) ?
+    - what is the reason for which the model predicted [instance 20](record) as [christian](act_label) and not [atheism](des_label) ?
+    - what is the reason for which the model predicted [instance 35](record) as [atheism](act_label) instead of predicting [christian](des_label) ?
+
+- intent: why_this
+  examples: |
+    - why [instance 135](record) is classified as [atheism](label) ?
+    - why the model classified [instance 79](record) as [christian](label) ?
+    - why the model has classified [instance 141](record) as [christian](label) ?
+    - why the model sees [instance 31](record) as [christian](label) ?
+    - why the model predicted this class for [instance 85](record) ?
+    - why the model predicted [instance 52](record) as this ?
+    - why the model predicted [atheism](label) for [instance 94](record) ?
+    - why the model predicted [instance 130](record) as [christian](label) ?
+    - why [instance 118](record) becomes [atheism](label) ?
+    - how come model predicts [christian](label) for [instance 134](record) ?
+    - why you classified [instance 70](record) as [christian](label) ?
+    - why the model decided to predict this label for [instance 127](record) ?
+    - why i see such a prediction for [instance 98](record) ?
+    - why the model decided to classify [instance 95](record) as [christian](label) ?
+    - on what basis the [instance 118](record) has been predicted as [atheism](label) ?
+    - why the [instance 65](record) is classified as [christian](label) ?
+    - how the model came up with such label for [instance 83](record) ?
+    - how the model predicted this label for [instance 133](record) ?
+    - how the model has predicted [atheism](label) for [instance 142](record) ?
+    - why for the [instance 77](record) such a label has been predicted?
+    - what makes the model to categorize [instance 87](record) as a [christian](label) ?
+    - why did the model predict this outcome for [instance 9](record) ?
+    - why does the model predict this outcome for [instance 48](record) ?
+    - why is such an output predicted for [instance 107](record) ?
+    - why did this model predict this outcome for [instance 144](record) ?
+    - why is this the outcome for [instance 14](record) ?
+    - why is such an output predicted for [instance 81](record) ?
+    - why did [instance 137](record) have this predicted outcome?
+    - why did [instance 15](record) have this outcome?
+    - why is this output predicted for [instance 118](record) ?
+    - why [instance 16](record) was considered as xxx ?
+    - why did the model classify the [instance 100](record) as vvv ?
+    - what feature did it use to classify [instance 65](record) ?
+    - how did you determine the decision for [instance 23](record) ?
+
+
+
+- intent: what_if_add
+  examples: |
+    - what if i add [their](token) to [instance 126](record) ?
+    - what would be the output if i add [race](token) to [instance 127](record) ?
+    - adding [humans](token) how will change the output for [instance 87](record) ?
+    - what is the impact of adding [induction](token) to [instance 118](record) ?
+    - how adding [others](token) will change the output of [instance 87](record) ?
+    - what is the impact of adding [health](token) on the prediction of [instance 143](record)
+    - what happens if i add [others](token) to [instance 53](record) ?
+    - what if i add [others](token) to [instance 16](record) ?
+    - what is the impact of adding [brought](token) to [instance 31](record) ?
+    - what would happen if i add [again](token) to [instance 141](record) ?
+    - what is the outcome of adding [giving](token) to [instance 125](record) ?
+    - how adding [while](token) to [instance 18](record) will change the output ?
+    - how adding [amongst](token) will impact the outcome ?
+    - add [race](token) to [instance 59](record)
+
+- intent: what_if_del
+  examples: |
+    - what if i remove [race](token) in [instance 71](record) ?
+    - what would be the output if i remove [health](token) from [instance 29](record) ?
+    - removing [while](token) how will change the output for [instance 46](record) ?
+    - what is the impact of removing [brought](token) from [instance 31](record) ?
+    - how removing [above](token) will change the output of [instance 107](record) ?
+    - what is the impact of removing [mozumder](token) on the prediction of this instance?
+    - what happens if i remove [race](token) from [instance 72](record) ?
+    - what if i remove [their](token) from [instance 89](record) ?
+    - what is the impact of removing [induction](token) from [instance 129](record) ?
+    - what would happen if i remove [proscribed](token) from [instance 60](record) ?
+    - what is the outcome of removing [welcome](token) from [instance 45](record) ?
+    - how removing [induction](token) from [instance 80](record) will change the output ?
+    - how removing [stopped](token) will impact the outcome ?
+    - remove [christians](token) from [instance 31](record)
+
+- intent: expectation_not_met
+  examples: |
+    - why the [instance 92](record) is not classified as [christian](des_label) ?
+    - why the model didn't classify [instance 58](record) as [christian](des_label) ?
+    - i was expecting to see [atheism](des_label) as the class of the [instance 111](record) !
+    - why the model decided to not go for [atheism](des_label) for the [instance 74](record) ?
+    - for the [instance 72](record) , why not the [atheism](des_label) instead of the current one ?
+    - why the model didn't predicted [atheism](des_label) as the output for the [instance 77](record) ?
+    - why you didn't predicted [christian](des_label) as the output for the [instance 101](record) ?
+    - for the [instance 0](record) why the model didn't give [atheism](des_label) ?
+    - why not [atheism](des_label) instead for the [instance 26](record) ?
+    - why [instance 102](record) isn't ended up as [christian](des_label) ?
+    - for [instance 92](record) why the model didn't predicted [atheism](des_label) ?
+    - why not [atheism](des_label) for [instance 90](record) ?
+    - what is the reason for which the model hasn't predicted [instance 26](record) as [christian](des_label) ?
+
+- intent: feature_importance_global
+  examples: |
+    - what is the feature importance ?
+    - show me the feature importance
+    - give me the feature importance
+    - what is the contribution of each feature ?
+    - how features contribute in predictions ?
+    - what is the importance of each feature for predictions ?
+    - what is the importance of each feature ?
+    - to what extent does [thread](feature) affect the prediction outcome ?
+    - how much was [induction](feature) taken in to account ?
+    - does [stopped](feature) affect the outcome ?
+    - what is the weight of [absolutely](feature) to predict people incomes ?
+    - did the model use [father](feature) to classify the records ?
+    - how was outcome achieved ?
+    - what feature was used the most to achieve prediction outcomes?
+    - what feature did it use the most to the predictions ?
+    - which feature did the model use the most for the classification ?
+
+- intent: overall_contribution_to_label
+  examples: |
+    - what is the overall contribution of records for [christian](label) ?
+    - what makes model to predict something as [atheism](label) ?
+    - how records contribute for prediction of [atheism](label) ?
+    - how [christian](label) is predicted ?
+    - in what case model predicts a record as [atheism](label) ?
+    - what makes the model to predict [christian](label) ?
+    - how records contribute in predicting something as [atheism](label) ?
+    - what brings the model to predict something as [atheism](label) ?
+    - from where arrive [atheism](label) predictions?
+
+- intent: single_contribution_to_label
+  examples: |
+    - what is the contribution of [instance 89](record) for [christian](label) ?
+    - what is the contribution of [instance 143](record) for predicting [christian](label) ?
+    - what is the contribution of [instance 93](record) for predicting something as [christian](label) ?
+    - how [instance 147](record) contributes for prediction of [christian](label) ?
+    - how [instance 97](record) contributes in predicting something as [atheism](label) ?
+    - how [instance 33](record) contributes for predicting [atheism](label) ?
+    - what is the effect of [instance 43](record) on prediction of [atheism](label) ?
+    - what is the effect of [instance 90](record) on predicting [atheism](label) ?
+
+- intent: feature_effect
+  examples: |
+    - what is the marginal effect of [catholic](feature) on [atheism](label) ?
+    - what is the effect of [their](feature) on [christian](label) ?
+    - what is the relationship between [christians](feature) and [atheism](label) ?
+    - show me the relationship between [amongst](feature) and [christian](label)
+    - what kind of relationship [accepted](feature) and [christian](label) have ?
+    - how the [above](feature) affects [atheism](label) ?
+    - how [atheism](label) is affected by [absolutely](feature) ?
+    - show me the marginal effect of [health](feature) on [atheism](label)
+    - to what extent does [sides](feature) affect the prediction outcome?

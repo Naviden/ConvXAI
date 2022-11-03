@@ -1,0 +1,7 @@
+why the model predicted INS as ACT_LABEL but the INS as DES_LABEL ?
+why DES_LABEL is predicted for INS but not for INS ?
+why INS ends as ACT_LABEL but INS as DES_LABEL ?
+why the model has decided to predict INS as ACT_LABEL but not INS ?
+why INS is predicted as ACT_LABEL while INS is predicted a DES_LABEL ?
+why the model has decided to go for ACT_LABEL for INS while the INS is classified as DES_LABEL ?
+why I see ACT_LABEL for INS while INS has ended as DES_LABEL ?

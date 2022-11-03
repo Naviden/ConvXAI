@@ -1,0 +1,313 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(180, 194, 203, 1) !important;
+	/* background-image: url(https://filedn.com/ltOdFv1aqz1YIFhf4gTY8D7/ingus-info/BLOGS/Photography-stocks3/stock-photography-slider.jpg); */
+
+}
+
+.chat-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid rgb(109, 109, 109);
+	border-radius: 8px;
+	/* box-shadow: black; */
+	width: 45vw;
+	height: 80vh;
+	background-color: white;
+	-webkit-box-shadow: 10px 13px 55px -21px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 13px 55px -21px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 55px -21px rgba(0,0,0,0.75);
+}
+
+.messages-container{
+	overflow-y: scroll;
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.messages-container::-webkit-scrollbar {
+	display: none;
+  }
+
+.input-container{
+	padding: 0px 10px;
+}
+
+.input-container p{
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 5px;
+	margin-bottom: 4px;
+}
+
+.rce-mbox{
+    background-color: "red" !important;
+	width: auto !important;
+	max-width: 30vw;
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(37, 119, 191) !important;
+	border-radius: 6px 6px 0px 0px;
+	padding: 10px;
+	color: #fafafa;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 10px;
+	z-index: 100;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+
+.input-container{
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+}
+
+.input-container input{
+	width: 100%;
+	border: none;
+	height: 100%;
+	font-size: 16px;
+}
+
+.input-container input:focus{
+	outline: none;
+}
+
+.input-container button{ /* light mode button*/
+	padding: 10px 5px;
+	width: 10vw;
+	background-color: rgb(5, 61, 110);
+	color: #fafafa;
+	border-radius: 8px;
+	border: none;
+}
+
+.input-container button:hover{
+	transition: 0.2s;
+	background-color: rgb(48, 86, 119);
+}
+
+.input-container button:focus{
+	outline: none;
+}
+
+.option-container{
+	display: flex;
+	flex-direction: row;
+	flex-basis: 30%;
+	width: 20vw;
+	margin-bottom: 15px;
+	margin-left: 1vw;
+	flex-flow: wrap;
+}
+
+.option-container:nth-child(3n) {
+	page-break-after: always; /* CSS 2.1 syntax */
+	break-after: always; /* New syntax */
+}
+
+.option-container button{
+	color: rgb(33, 150, 243);
+	padding: 6px;
+	margin-left: 10px;
+	background-color: rgb(244, 236, 233);
+	width: auto;
+	border-radius: 8px;
+	border: none;
+	margin-top: 4px;
+}
+
+/* .option-container button:last-of-type {
+	border: none;
+} */
+
+.option-container button:hover{ /* ? */
+	transition: 0.2;
+	background-color: rgb(228, 228, 228);
+}
+
+.option-container button:focus{
+	outline: none;
+}
+
+
+.dark-app{ /*dark background*/
+	background-color: rgb(15, 15, 32) !important;
+}
+
+.dark-header{ /*dark header*/
+	background-color: rgb(35, 57, 78) !important;
+}
+
+.dark-chat-container{
+	background-color: rgba(14, 23, 13, 0.3) !important;
+}
+
+
+.dark-input-container{ /*dark mode input placeholder */
+	background-color: rgba(35, 57, 78, 0.2) !important;
+}
+
+.dark-input-container input{ /* ? */
+	background-color: rgba(13, 23, 22, 0) !important;
+	color: #fafafa;
+}
+
+.dark-input-container button{ /* dark mode button*/
+	background-color: rgb(43, 71, 97) !important;
+	color: #969696 !important;
+	font-weight: 600;
+}
+
+
+.dark-input-container button:hover{
+	transition: .2s;
+	background-color: rgb(69, 132, 226) !important;
+	color: #fafafa !important;
+	font-weight: 600;
+}
+
+.dark-input-container p{ /* ? */
+	color: #fafafa !important;
+	font-weight: 600;
+}
+
+.rce-mbox{ /*light mode bot bubble*/
+	background: rgb(233, 238, 244) !important;
+}
+.rce-mbox-right{ /*light mode user bubble*/
+	background: rgb(86, 182, 255) !important;
+	padding: 10px !important;
+	box-shadow: none !important;
+	border-radius: 8px !important;
+}
+
+.darkModeBotMessage{ /*dark mode bot bubble*/
+	background-color: rgb(233, 238, 244) !important;
+}
+
+.darkModeUserMessage{ /*dark mode user bubble*/
+	background-color: rgb(25, 133, 216) !important;
+}
+
+.rce-mbox-time {
+	display: none;
+}
+
+.rce-mbox-text{
+	text-align: left;
+}
+
+.rce-mbox-text div{
+	text-align: left;
+}
+
+.toggle-container{
+	margin-left: 90%;
+	height: fit-content;
+	margin-bottom: -5vh;
+}
+
+/* .hard-coded-list{
+	text-align: left;
+	margin-left: 2vw;
+	background: rgb(254, 254, 255) !important;
+	box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 20%);
+	width: fit-content;
+	padding: 20px;
+	min-width: 140px;
+	padding: 6px 9px 8px 9px;
+	margin-top: -2px;
+	border-top-left-radius: 0px;
+	border-radius: 5px;
+} */
+
+.rce-mbox{
+	width: 27vw;
+	}
+
+/* The switch - the box around the slider */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+	}
+	
+	/* Hide default HTML checkbox */
+	.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+	}
+	
+	/* The slider */
+	.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	}
+	
+	.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+	}
+	
+	input:checked + .slider {
+	background-color: #2196F3;
+	}
+	
+	input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+	}
+	
+	input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+	}
+	
+	/* Rounded sliders */
+	.slider.round {
+	border-radius: 34px;
+	}
+	
+	.slider.round:before {
+	border-radius: 50%;
+	}
+
+	#switch-mode-text{
+		color: rgb(236, 236, 236);
+		}
+
+.rce-mbox-photo--img img {
+	max-width: 26vw;
+	padding: 0 3px;
+}

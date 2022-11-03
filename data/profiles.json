@@ -1,0 +1,1 @@
+{"end_user": {"name": "End user", "presentation": ["text"]}, "developer": {"name": "Developer", "presentation": ["text", "plot"]}, "Manager": {"name": "Manager", "presentation": ["text", "plot"]}}

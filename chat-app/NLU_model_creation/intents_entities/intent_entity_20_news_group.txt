@@ -1,0 +1,29 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - list_features
+  - most_important_feature
+  - why_not
+  - why_this
+  - how_arrive_to
+  - why_not_this_record
+  - what_if_add
+  - what_if_del
+  - expectation_not_met
+  - feature_importance_global
+  - overall_contribution_to_label
+  - single_contribution_to_label
+  - feature_effect
+
+entities:
+  - feature
+  - des_label
+  - act_label
+  - record
+  - label
+  - token

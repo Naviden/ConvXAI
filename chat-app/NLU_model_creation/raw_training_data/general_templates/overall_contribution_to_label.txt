@@ -1,0 +1,10 @@
+what is the overall contribution of records for LAB ?
+what makes model to predict something as LAB ?
+how records contribute for prediction of LAB ?
+how LAB is predicted ?
+in what case model predicts a record as LAB ?
+what makes the model to predict LAB ?
+how records contribute in predicting something as LAB ?
+what brings the model to predict something as LAB ?
+from where arrive LAB predictions?
+

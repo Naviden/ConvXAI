@@ -1,0 +1,283 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hello?
+    - HEY
+    - hello are you still there
+    - hallo
+    - HI
+    - Hey
+    - Hi
+    - hi!
+    - hello there
+    - hi there
+    - Hello
+
+- intent: thankyou
+  examples: |
+    - thank you
+    - okay thank you
+    - thanks
+    - Thanks!
+    - thanks a lot
+    - ok thanks
+
+- intent: chitchat_general
+  examples: |    
+    - whats up?
+    - how you doing?
+    - what you doing now?
+    - you bored?
+    - how are you?
+    - what are you?
+    - who are you?
+    - tell me more about yourself
+    - you are an AI?
+    - why do you exist?
+    - what do you do?
+  
+- intent: help
+  examples: |
+    - help
+    - what can you do?
+    - what can I ask you?
+    - what can you help me with?
+    - help me
+    - help, what do you do
+    - how do I use this
+    - how can you help me
+    - What are the things that you can do?
+    - how should I ask you something ?
+    - how do you work ?
+    - i need help
+
+- intent: human_handoff
+  examples: |
+    - I want a human
+    - can I speak to an agent
+    - real agent please
+    - real human
+    - chat with a live agent
+    - give me a person please
+    - i want to talk to a human
+    - transfer to a human
+    - Please give me to a human   
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+
+- intent: list_features
+  examples: |
+    - what are the features the model used for classifying [instance 9](record) ?
+    - what is the role of each feature in the classifying [instance 20](record) ?
+    - what is the feature importance for [instance 17](record) ?
+    - how the model used features in order to classify [instance 9](record) ?
+    - what is the order of features used for classifying [instance 21](record) ?
+    - show me the feature importance of [instance 21](record) ?
+    - list the feature importance of record [instance 8](record)
+    - what are the feature's contribution for [instance 9](record) ?
+    - how each feature contributes in the outcome of the [instance 14](record) ?
+    - give me the feature importance for the [instance 0](record)
+    - show me the feature importance of the [instance 9](record)
+    - what are the features used for predicting [instance 23](record) ?
+    - which words contributed to the prediction of the [instance 21](record) ?
+    - to what extent does [total_phenols](feature) affect the prediction of [instance 4](record) ?
+
+- intent: most_important_feature
+  examples: |
+    - which feature contributes the most for [instance 26](record) ?
+    - what is the most important feature in [instance 20](record) ?
+    - what feature has the highest impact on the outcome of the [instance 21](record) ?
+    - what is the most influential feature for the outcome of the [instance 6](record) ?
+    - show me the most important feature for the [instance 18](record)
+    - among all features, which one contributes the most on prediction of the [instance 20](record) ?
+    - what is the most important feature for the [instance 19](record) ?
+    - what is the most important feature in [instance 33](record) ?
+
+- intent: why_not
+  examples: |
+    - why the [instance 19](record) is classified as [class_1](act_label) , instead of [class_2](des_label) ?
+    - why the model decided to go for [class_1](act_label) instead of [class_0](des_label) for the [instance 2](record) ?
+    - why the model predicted [class_0](act_label) as the output for the [instance 16](record) instead of [class_2](des_label) ?
+    - why you predicted [class_2](act_label) as the output for the [instance 15](record) instead of [class_1](des_label) ?
+    - for the [instance 27](record) why the model give [class_1](act_label) instead of [class_2](des_label) ?
+    - why [class_0](act_label) instead of [class_2](des_label) for the [instance 22](record) ?
+    - why [instance 7](record) is ended up as [class_1](act_label) instead of [class_0](des_label) ?
+    - why [class_0](act_label) and not [class_1](des_label) for [instance 2](record) ?
+    - how come [class_2](act_label) and not [class_0](des_label) for [instance 10](record) ?
+    - for [instance 7](record) why the model predicted [class_0](act_label) and not [class_2](des_label) ?
+    - why not [class_1](des_label) for [instance 16](record) instead of [class_1](act_label) ?
+    - why the model goes for the [class_2](act_label) and not the [class_2](des_label) for the [instance 17](record) ?
+    - what is the reason for which the model predicted [instance 16](record) as [class_1](act_label) and not [class_2](des_label) ?
+    - what is the reason for which the model predicted [instance 3](record) as [class_0](act_label) instead of predicting [class_0](des_label) ?
+
+- intent: why_this
+  examples: |
+    - why [instance 10](record) is classified as [class_2](label) ?
+    - why the model classified [instance 10](record) as [class_1](label) ?
+    - why the model has classified [instance 22](record) as [class_2](label) ?
+    - why the model sees [instance 11](record) as [class_2](label) ?
+    - why the model predicted this class for [instance 4](record) ?
+    - why the model predicted [instance 11](record) as this ?
+    - why the model predicted [class_1](label) for [instance 33](record) ?
+    - why the model predicted [instance 1](record) as [class_1](label) ?
+    - why [instance 1](record) becomes [class_2](label) ?
+    - how come model predicts [class_2](label) for [instance 14](record) ?
+    - why you classified [instance 24](record) as [class_0](label) ?
+    - why the model decided to predict this label for [instance 8](record) ?
+    - why i see such a prediction for [instance 8](record) ?
+    - why the model decided to classify [instance 2](record) as [class_0](label) ?
+    - on what basis the [instance 18](record) has been predicted as [class_0](label) ?
+    - why the [instance 18](record) is classified as [class_1](label) ?
+    - how the model came up with such label for [instance 5](record) ?
+    - how the model predicted this label for [instance 30](record) ?
+    - how the model has predicted [class_0](label) for [instance 19](record) ?
+    - why for the [instance 14](record) such a label has been predicted?
+    - what makes the model to categorize [instance 6](record) as a [class_1](label) ?
+    - why did the model predict this outcome for [instance 21](record) ?
+    - why does the model predict this outcome for [instance 30](record) ?
+    - why is such an output predicted for [instance 7](record) ?
+    - why did this model predict this outcome for [instance 15](record) ?
+    - why is this the outcome for [instance 12](record) ?
+    - why is such an output predicted for [instance 32](record) ?
+    - why did [instance 35](record) have this predicted outcome?
+    - why did [instance 15](record) have this outcome?
+    - why is this output predicted for [instance 5](record) ?
+    - why [instance 28](record) was considered as xxx ?
+    - why did the model classify the [instance 18](record) as vvv ?
+    - what feature did it use to classify [instance 25](record) ?
+    - how did you determine the decision for [instance 4](record) ?
+
+
+
+- intent: expectation_not_met
+  examples: |
+    - why the [instance 25](record) is not classified as [class_1](des_label) ?
+    - why the model didn't classify [instance 31](record) as [class_2](des_label) ?
+    - i was expecting to see [class_2](des_label) as the class of the [instance 12](record) !
+    - why the model decided to not go for [class_2](des_label) for the [instance 32](record) ?
+    - for the [instance 21](record) , why not the [class_1](des_label) instead of the current one ?
+    - why the model didn't predicted [class_2](des_label) as the output for the [instance 25](record) ?
+    - why you didn't predicted [class_2](des_label) as the output for the [instance 6](record) ?
+    - for the [instance 32](record) why the model didn't give [class_0](des_label) ?
+    - why not [class_1](des_label) instead for the [instance 19](record) ?
+    - why [instance 0](record) isn't ended up as [class_1](des_label) ?
+    - for [instance 19](record) why the model didn't predicted [class_1](des_label) ?
+    - why not [class_2](des_label) for [instance 33](record) ?
+    - what is the reason for which the model hasn't predicted [instance 19](record) as [class_2](des_label) ?
+
+- intent: feature_importance_global
+  examples: |
+    - what is the feature importance ?
+    - show me the feature importance
+    - give me the feature importance
+    - what is the contribution of each feature ?
+    - how features contribute in predictions ?
+    - what is the importance of each feature for predictions ?
+    - what is the importance of each feature ?
+    - to what extent does [alcalinity_of_ash](feature) affect the prediction outcome ?
+    - how much was [ash](feature) taken in to account ?
+    - does [od280/od315_of_diluted_wines](feature) affect the outcome ?
+    - what is the weight of [flavanoids](feature) to predict people incomes ?
+    - did the model use [color_intensity](feature) to classify the records ?
+    - how was outcome achieved ?
+    - what feature was used the most to achieve prediction outcomes?
+    - what feature did it use the most to the predictions ?
+    - which feature did the model use the most for the classification ?
+
+- intent: overall_contribution_to_label
+  examples: |
+    - what is the overall contribution of records for [class_0](label) ?
+    - what makes model to predict something as [class_1](label) ?
+    - how records contribute for prediction of [class_2](label) ?
+    - how [class_0](label) is predicted ?
+    - in what case model predicts a record as [class_1](label) ?
+    - what makes the model to predict [class_2](label) ?
+    - how records contribute in predicting something as [class_0](label) ?
+    - what brings the model to predict something as [class_0](label) ?
+    - from where arrive [class_1](label) predictions?
+
+- intent: single_contribution_to_label
+  examples: |
+    - what is the contribution of [instance 22](record) for [class_1](label) ?
+    - what is the contribution of [instance 2](record) for predicting [class_1](label) ?
+    - what is the contribution of [instance 9](record) for predicting something as [class_1](label) ?
+    - how [instance 27](record) contributes for prediction of [class_0](label) ?
+    - how [instance 13](record) contributes in predicting something as [class_2](label) ?
+    - how [instance 5](record) contributes for predicting [class_0](label) ?
+    - what is the effect of [instance 0](record) on prediction of [class_2](label) ?
+    - what is the effect of [instance 35](record) on predicting [class_0](label) ?
+
+- intent: feature_effect
+  examples: |
+    - what is the marginal effect of [od280/od315_of_diluted_wines](feature) on [class_0](label) ?
+    - what is the effect of [malic_acid](feature) on [class_1](label) ?
+    - what is the relationship between [total_phenols](feature) and [class_1](label) ?
+    - show me the relationship between [malic_acid](feature) and [class_2](label)
+    - what kind of relationship [nonflavanoid_phenols](feature) and [class_0](label) have ?
+    - how the [proanthocyanins](feature) affects [class_1](label) ?
+    - how [class_0](label) is affected by [alcalinity_of_ash](feature) ?
+    - show me the marginal effect of [proline](feature) on [class_1](label)
+    - to what extent does [alcalinity_of_ash](feature) affect the prediction outcome?
+
+
+
+
+
+
+
+
+
+- synonym: instance
+  examples: |
+    - record
+    - case
+
+- synonym: predicted
+  examples: |
+    - classified

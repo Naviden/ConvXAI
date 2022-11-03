@@ -1,0 +1,17 @@
+why the INS is classified as ACT_LAB , instead of DES_LAB ?
+why the model didn't classify INS as DES_LAB ?
+i was expecting to see DES_LAB as the class of the INS !
+Why the model decided to go for ACT_LAB instead of DES_LAB for the INS ?
+for the INS , why not the DES_LAB instead of the current one ?
+why the model predicted ACT_LAB as the output for the INS instead of DES_LAB ?
+why you predicted ACT_LAB as the output for the INS instead of DES_LAB ?
+for the INS why the model give ACT_LAB instead of DES_LAB ?
+Why ACT_LAB instead of DES_LAB for the INS ?
+why INS is ended up as ACT_LAB instead of DES_LAB ?
+why ACT_LAB and not DES_LAB for INS ?
+How come ACT_LAB and not DES_LAB for INS ?
+for INS why the model predicted ACT_LAB and not DES_LAB ?
+Why not DES_LAB for INS instead of ACT_LAB ?
+why the model goes for the ACT_LAB and not the DES_LAB for the INS ?
+What is the reason for which the model predicted INS as ACT_LAB and not DES_LAB ?
+What is the reason for which the model predicted INS as ACT_LAB instead of predicting DES_LAB ?

@@ -1,0 +1,34 @@
+why the model predicted this value for INS ?
+why the model predicted INS as this ?
+why the model predicted INS as this value ?
+How come model predicts this value for INS ?
+why you classified INS as this value ?
+Why the model decided to predict this value for INS ?
+Why I see such a prediction for INS ?
+why the model decided to classify INS as this ?
+On what basis the INS has been predicted as this ?
+Why the INS is predicted ?
+how the model came up with such value for INS ?
+how the model came up with such prediction for INS ?
+how the model predicted this value for INS ?
+how the model has predicted this value for INS ?
+why for the INS such a value has been predicted?
+Why did the model predict this outcome for INS ?
+Why did the model predict this value for INS ?
+Why does the model predict this outcome for INS ?
+Why does the model predict this value for INS ?
+Why is such an output predicted for INS ?
+Why is such a value predicted for INS ?
+Why did this model predict this outcome for INS ?
+Why did this model predict this value for INS ?
+Why is this the outcome for INS ?
+Why is this the prediction for INS ?
+Why is such an outcome predicted for INS ?
+Why is such a value predicted for INS ?
+Why did INS have this predicted outcome?
+Why did INS have this outcome?
+Why is this output predicted for INS ?
+Why INS was considered as xxx ?
+Why did the model classify INS as vvv ?
+What feature did it use to classify INS ?
+How did you determine the decision for INS ?

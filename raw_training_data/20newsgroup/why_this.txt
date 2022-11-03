@@ -1,0 +1,19 @@
+why INS is classified as LAB ?
+why the model classified INS as LAB ?
+why the model has classified INS as LAB?
+why the model sees INS as LAB ?
+why the model predicted this class for INS?
+why INS becomes LAB ?
+How come model predicts LAB for INS?
+why you classified INS as LAB ?
+Why the model decided to predict this label for INS ?
+Why I see such a prediction for INS ?
+why the model decided to classify INS as LAB ?
+On what basis the INS has been predicted as LAB ?
+Why the INS is classified as LAB ?
+how the model came up with such label for INS ?
+how the model predicted this label for INS ?
+how the model has predicted LAB for INS ?
+why for the INS such a label has been predicted?
+what makes the model to categorize INS as A LAB ?
+

@@ -1,0 +1,64 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- list_features:
+    use_entities: true
+- most_important_feature:
+    use_entities: true
+- why_this_regression:
+    use_entities: true
+- how_arrive_to:
+    use_entities: true
+- why_not_this_record:
+    use_entities: true
+- feature_importance_global:
+    use_entities: true
+- feature_effect_regression:
+    use_entities: true
+- why_not_regression:
+    use_entities: true
+entities:
+- feature
+- record
+slots:
+  record:
+    type: rasa.shared.core.slots.ListSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+actions:
+- action_give_explanation
+forms: {}
+e2e_actions: []

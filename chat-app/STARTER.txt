@@ -1,0 +1,47 @@
+Directory structure:
+- client
+- flask-server
+
+client has the react application
+while flask-server has the flask application (this can be simply run by 'python main.py'), 
+incase you don't have the module, you can install it using 'pip install <module>'
+
+to run the client you must install node and npm
+
+https://nodejs.org/en/download/
+
+you can download it from here
+
+if successful
+
+type the following into a shell to verify
+node -v
+npm -v
+
+(if you install node, npm should be automatically installed)
+
+if these commands successfully output a version number you are good to go
+
+you then need to run 'npm start' inside the client directory to start the project. The flask app should be running too
+
+then the application will automatically be activated on your default browser, (port 3000 for frontend, 5000 for flask)
+
+#### To run the frontend
+go to "venv" vistualenv and activate it
+run python3 /Users/navid/Documents/rasa_practice/XAIBot_V1/chat-app/flask-server/main.py
+
+
+#### To retrain the NLU model with new data
+you need two files:
+- RASA_NLU/data/nlu.yml
+- RASA_NLU/domain.yml
+
+To have materials to modify above files:
+- run intent_creator_batch.py
+For each dataset that is present in the components.py, two files be added to these folders:
+- created_intents [goes into nlu.yml]
+- intents_entities [goes into doamin.yml]
+
+After modifying these files, in the RASA_NLU folder:
+- run >> rasa train
+- unzip the generated model 

@@ -1,0 +1,122 @@
+
+- intent: list_features
+  examples: |
+    - what are the features the model used for classifying [instance 35](record) ?
+    - what is the role of each feature in the classifying [instance 85](record) ?
+    - what is the feature importance for [instance 14](record) ?
+    - how the model used features in order to classify [instance 32](record) ?
+    - what is the order of features used for classifying [instance 46](record) ?
+    - show me the feature importance of [instance 38](record) ?
+    - list the feature importance of record [instance 1](record)
+    - what are the feature's contribution for [instance 88](record) ?
+    - how each feature contributes in the outcome of the [instance 34](record) ?
+    - give me the feature importance for the [instance 2](record)
+    - show me the feature importance of the [instance 29](record)
+    - what are the features used for predicting [instance 49](record) ?
+    - which words contributed to the prediction of the [instance 54](record) ?
+    - to what extent does [s5](feature) affect the prediction of [instance 7](record) ?
+
+- intent: most_important_feature
+  examples: |
+    - which feature contributes the most for [instance 59](record) ?
+    - what is the most important feature in [instance 39](record) ?
+    - what feature has the highest impact on the outcome of the [instance 8](record) ?
+    - what is the most influential feature for the outcome of the [instance 5](record) ?
+    - show me the most important feature for the [instance 49](record)
+    - among all features, which one contributes the most on prediction of the [instance 88](record) ?
+    - what is the most important feature for the [instance 9](record) ?
+    - what is the most important feature in [instance 27](record) ?
+
+- intent: what_if_subs
+  examples: |
+    - what if i change the [s4](feature) to -0.076394503750001 for [instance 36](record) ?
+    - what would be the output if i change the [s3](feature) to 0.0670482884705852 for [instance 61](record) ?
+    - changing the [s5](feature) to -0.0332487872476258 how will change the output for [instance 67](record) ?
+    - what is the impact of changing [sex](feature) to 0.0506801187398187 for [instance 44](record) ?
+    - how changing the [sex](feature) to -0.044641636506989 will change the output of [instance 12](record) ?
+    - what is the impact of changing the [s6](feature) to -0.0217882320746399 on the prediction of this instance?
+
+- intent: why_this_regression
+  examples: |
+    - why the model predicted this value for [instance 21](record) ?
+    - why the model predicted [instance 78](record) as this ?
+    - why the model predicted [instance 7](record) as this value ?
+    - how come model predicts this value for [instance 28](record) ?
+    - why you classified [instance 53](record) as this value ?
+    - why the model decided to predict this value for [instance 35](record) ?
+    - why i see such a prediction for [instance 11](record) ?
+    - why the model decided to classify [instance 85](record) as this ?
+    - on what basis the [instance 24](record) has been predicted as this ?
+    - why the [instance 13](record) is predicted ?
+    - how the model came up with such value for [instance 36](record) ?
+    - how the model came up with such prediction for [instance 48](record) ?
+    - how the model predicted this value for [instance 37](record) ?
+    - how the model has predicted this value for [instance 82](record) ?
+    - why for the [instance 88](record) such a value has been predicted?
+    - why did the model predict this outcome for [instance 15](record) ?
+    - why did the model predict this value for [instance 39](record) ?
+    - why does the model predict this outcome for [instance 74](record) ?
+    - why does the model predict this value for [instance 89](record) ?
+    - why is such an output predicted for [instance 50](record) ?
+    - why is such a value predicted for [instance 11](record) ?
+    - why did this model predict this outcome for [instance 48](record) ?
+    - why did this model predict this value for [instance 15](record) ?
+    - why is this the outcome for [instance 44](record) ?
+    - why is this the prediction for [instance 32](record) ?
+    - why is such an outcome predicted for [instance 22](record) ?
+    - why is such a value predicted for [instance 40](record) ?
+    - why did [instance 50](record) have this predicted outcome?
+    - why did [instance 76](record) have this outcome?
+    - why is this output predicted for [instance 29](record) ?
+    - why [instance 14](record) was considered as xxx ?
+    - why did the model classify [instance 23](record) as vvv ?
+    - what feature did it use to classify [instance 52](record) ?
+    - how did you determine the decision for [instance 23](record) ?
+
+- intent: feature_importance_global
+  examples: |
+    - what is the feature importance ?
+    - show me the feature importance
+    - give me the feature importance
+    - what is the contribution of each feature ?
+    - how features contribute in predictions ?
+    - what is the importance of each feature for predictions ?
+    - what is the importance of each feature ?
+    - to what extent does [s2](feature) affect the prediction outcome ?
+    - how much was [bp](feature) taken in to account ?
+    - does [s2](feature) affect the outcome ?
+    - what is the weight of [bmi](feature) to predict people incomes ?
+    - did the model use [s4](feature) to classify the records ?
+    - how was outcome achieved ?
+    - what feature was used the most to achieve prediction outcomes?
+    - what feature did it use the most to the predictions ?
+    - which feature did the model use the most for the classification ?
+
+- intent: feature_effect_regression
+  examples: |
+    - what is the marginal effect of [s5](feature) on predictions ?
+    - what is the marginal effect of [age](feature) on results ?
+    - what is the effect of [s5](feature) on predictions ?
+    - what is the effect of [s2](feature) on results ?
+    - what is the relationship between [s3](feature) and predictions ?
+    - show me the relationship between [s1](feature) and predictions
+    - how the [s3](feature) affects predictions ?
+    - how predictions are affected by [bmi](feature) ?
+    - show me the marginal effect of [s2](feature) on predictions
+    - show me the marginal effect of [s4](feature) on results
+
+- intent: why_not_regression
+  examples: |
+    - why the [instance 73](record) is not predicted level ?
+    - why the model decided to not go level for the [instance 26](record) ?
+    - why the model predicted 123 as the output for the [instance 49](record) instead of a level value ?
+    - why you predicted 42 as the output for the [instance 29](record) instead of a level value ?
+    - for the [instance 26](record) why the model give 96 instead of a level value ?
+    - why 24 instead of a level value for the [instance 18](record) ?
+    - why [instance 18](record) is ended up as 768 instead of a level value ?
+    - why 342 and not a level value for [instance 70](record) ?
+    - how come 98 and not a level value for [instance 77](record) ?
+    - for [instance 69](record) why the model predicted 57 and not a level value ?
+    - why not 765 for [instance 48](record) instead of a level value ?
+    - why the model goes for the 75 and not a level value for the [instance 50](record) ?
+    - what is the reason for which the model predicted [instance 73](record) as 533 and not a level value ?

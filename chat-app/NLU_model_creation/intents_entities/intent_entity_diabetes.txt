@@ -1,0 +1,20 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - list_features
+  - most_important_feature
+  - what_if_subs
+  - why_this_regression
+  - feature_importance_global
+  - feature_effect_regression
+  - why_not_regression
+
+entities:
+  - feature
+  - new_val
+  - record

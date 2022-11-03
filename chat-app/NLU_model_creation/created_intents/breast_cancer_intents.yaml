@@ -1,0 +1,154 @@
+
+- intent: list_features
+  examples: |
+    - what are the features the model used for classifying [instance 560](record) ?
+    - what is the role of each feature in the classifying [instance 522](record) ?
+    - what is the feature importance for [instance 126](record) ?
+    - how the model used features in order to classify [instance 590](record) ?
+    - what is the order of features used for classifying [instance 440](record) ?
+    - show me the feature importance of [instance 316](record) ?
+    - list the feature importance of record [instance 542](record)
+    - what are the feature's contribution for [instance 536](record) ?
+    - how each feature contributes in the outcome of the [instance 236](record) ?
+    - give me the feature importance for the [instance 120](record)
+    - show me the feature importance of the [instance 411](record)
+    - what are the features used for predicting [instance 587](record) ?
+    - which words contributed to the prediction of the [instance 584](record) ?
+    - to what extent does [area error](feature) affect the prediction of [instance 498](record) ?
+
+- intent: most_important_feature
+  examples: |
+    - which feature contributes the most for [instance 246](record) ?
+    - what is the most important feature in [instance 135](record) ?
+    - what feature has the highest impact on the outcome of the [instance 479](record) ?
+    - what is the most influential feature for the outcome of the [instance 136](record) ?
+    - show me the most important feature for the [instance 485](record)
+    - among all features, which one contributes the most on prediction of the [instance 258](record) ?
+    - what is the most important feature for the [instance 9](record) ?
+    - what is the most important feature in [instance 348](record) ?
+
+- intent: why_not
+  examples: |
+    - why the [instance 161](record) is classified as [0](act_label) , instead of [1](des_label) ?
+    - why the model decided to go for [1](act_label) instead of [1](des_label) for the [instance 554](record) ?
+    - why the model predicted [0](act_label) as the output for the [instance 296](record) instead of [0](des_label) ?
+    - why you predicted [1](act_label) as the output for the [instance 529](record) instead of [0](des_label) ?
+    - for the [instance 540](record) why the model give [0](act_label) instead of [0](des_label) ?
+    - why [0](act_label) instead of [1](des_label) for the [instance 407](record) ?
+    - why [instance 411](record) is ended up as [0](act_label) instead of [0](des_label) ?
+    - why [0](act_label) and not [1](des_label) for [instance 467](record) ?
+    - how come [1](act_label) and not [1](des_label) for [instance 355](record) ?
+    - for [instance 86](record) why the model predicted [0](act_label) and not [0](des_label) ?
+    - why not [1](des_label) for [instance 214](record) instead of [0](act_label) ?
+    - why the model goes for the [1](act_label) and not the [1](des_label) for the [instance 328](record) ?
+    - what is the reason for which the model predicted [instance 176](record) as [0](act_label) and not [0](des_label) ?
+    - what is the reason for which the model predicted [instance 218](record) as [1](act_label) instead of predicting [0](des_label) ?
+
+- intent: why_this
+  examples: |
+    - why [instance 360](record) is classified as [0](label) ?
+    - why the model classified [instance 63](record) as [0](label) ?
+    - why the model has classified [instance 38](record) as [0](label) ?
+    - why the model sees [instance 267](record) as [0](label) ?
+    - why the model predicted this class for [instance 405](record) ?
+    - why the model predicted [instance 284](record) as this ?
+    - why the model predicted [1](label) for [instance 339](record) ?
+    - why the model predicted [instance 277](record) as [0](label) ?
+    - why [instance 510](record) becomes [0](label) ?
+    - how come model predicts [0](label) for [instance 308](record) ?
+    - why you classified [instance 416](record) as [1](label) ?
+    - why the model decided to predict this label for [instance 395](record) ?
+    - why i see such a prediction for [instance 429](record) ?
+    - why the model decided to classify [instance 75](record) as [1](label) ?
+    - on what basis the [instance 321](record) has been predicted as [0](label) ?
+    - why the [instance 228](record) is classified as [0](label) ?
+    - how the model came up with such label for [instance 439](record) ?
+    - how the model predicted this label for [instance 122](record) ?
+    - how the model has predicted [1](label) for [instance 449](record) ?
+    - why for the [instance 573](record) such a label has been predicted?
+    - what makes the model to categorize [instance 193](record) as a [0](label) ?
+    - why did the model predict this outcome for [instance 564](record) ?
+    - why does the model predict this outcome for [instance 208](record) ?
+    - why is such an output predicted for [instance 151](record) ?
+    - why did this model predict this outcome for [instance 35](record) ?
+    - why is this the outcome for [instance 244](record) ?
+    - why is such an output predicted for [instance 575](record) ?
+    - why did [instance 440](record) have this predicted outcome?
+    - why did [instance 245](record) have this outcome?
+    - why is this output predicted for [instance 30](record) ?
+    - why [instance 489](record) was considered as xxx ?
+    - why did the model classify the [instance 249](record) as vvv ?
+    - what feature did it use to classify [instance 180](record) ?
+    - how did you determine the decision for [instance 290](record) ?
+
+
+
+- intent: expectation_not_met
+  examples: |
+    - why the [instance 465](record) is not classified as [1](des_label) ?
+    - why the model didn't classify [instance 135](record) as [0](des_label) ?
+    - i was expecting to see [0](des_label) as the class of the [instance 448](record) !
+    - why the model decided to not go for [1](des_label) for the [instance 261](record) ?
+    - for the [instance 48](record) , why not the [0](des_label) instead of the current one ?
+    - why the model didn't predicted [0](des_label) as the output for the [instance 425](record) ?
+    - why you didn't predicted [1](des_label) as the output for the [instance 88](record) ?
+    - for the [instance 229](record) why the model didn't give [0](des_label) ?
+    - why not [1](des_label) instead for the [instance 98](record) ?
+    - why [instance 390](record) isn't ended up as [0](des_label) ?
+    - for [instance 547](record) why the model didn't predicted [1](des_label) ?
+    - why not [1](des_label) for [instance 120](record) ?
+    - what is the reason for which the model hasn't predicted [instance 58](record) as [1](des_label) ?
+
+- intent: feature_importance_global
+  examples: |
+    - what is the feature importance ?
+    - show me the feature importance
+    - give me the feature importance
+    - what is the contribution of each feature ?
+    - how features contribute in predictions ?
+    - what is the importance of each feature for predictions ?
+    - what is the importance of each feature ?
+    - to what extent does [worst concave points](feature) affect the prediction outcome ?
+    - how much was [mean smoothness](feature) taken in to account ?
+    - does [worst symmetry](feature) affect the outcome ?
+    - what is the weight of [perimeter error](feature) to predict people incomes ?
+    - did the model use [worst concave points](feature) to classify the records ?
+    - how was outcome achieved ?
+    - what feature was used the most to achieve prediction outcomes?
+    - what feature did it use the most to the predictions ?
+    - which feature did the model use the most for the classification ?
+
+- intent: overall_contribution_to_label
+  examples: |
+    - what is the overall contribution of records for [0](label) ?
+    - what makes model to predict something as [0](label) ?
+    - how records contribute for prediction of [1](label) ?
+    - how [1](label) is predicted ?
+    - in what case model predicts a record as [0](label) ?
+    - what makes the model to predict [0](label) ?
+    - how records contribute in predicting something as [0](label) ?
+    - what brings the model to predict something as [1](label) ?
+    - from where arrive [0](label) predictions?
+
+- intent: single_contribution_to_label
+  examples: |
+    - what is the contribution of [instance 48](record) for [1](label) ?
+    - what is the contribution of [instance 237](record) for predicting [0](label) ?
+    - what is the contribution of [instance 544](record) for predicting something as [0](label) ?
+    - how [instance 139](record) contributes for prediction of [0](label) ?
+    - how [instance 154](record) contributes in predicting something as [0](label) ?
+    - how [instance 133](record) contributes for predicting [0](label) ?
+    - what is the effect of [instance 578](record) on prediction of [0](label) ?
+    - what is the effect of [instance 304](record) on predicting [1](label) ?
+
+- intent: feature_effect
+  examples: |
+    - what is the marginal effect of [perimeter error](feature) on [0](label) ?
+    - what is the effect of [worst perimeter](feature) on [0](label) ?
+    - what is the relationship between [worst smoothness](feature) and [1](label) ?
+    - show me the relationship between [worst symmetry](feature) and [0](label)
+    - what kind of relationship [mean concavity](feature) and [1](label) have ?
+    - how the [mean radius](feature) affects [1](label) ?
+    - how [0](label) is affected by [mean fractal dimension](feature) ?
+    - show me the marginal effect of [radius error](feature) on [1](label)
+    - to what extent does [mean fractal dimension](feature) affect the prediction outcome?

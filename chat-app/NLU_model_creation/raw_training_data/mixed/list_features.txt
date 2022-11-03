@@ -1,0 +1,9 @@
+what are the features the model used for classifying INS ?
+What is the role of each feature in the classifying INS ?
+what is the feature importance for INS ?
+How the model used features in order to classify INS ?
+what is the order of features used for classifying INS ?
+show me the feature importance of INS ?
+list the feature importance of record INS 
+what are the feature's contribution for INS ?
+how each feature contributes in the outcome of the INS ?
