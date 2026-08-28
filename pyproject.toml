@@ -42,6 +42,7 @@ packages = ["src/convxai"]
 [tool.hatch.build.targets.sdist]
 include = [
   "/.github/workflows/ci.yml",
+  "/assets",
   "/src/convxai",
   "/tests",
   "/scripts",

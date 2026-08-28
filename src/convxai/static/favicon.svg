@@ -1,10 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ConvXAI">
-  <rect width="64" height="64" rx="16" fill="#3457d5" />
-  <path
-    d="M42.5 17.5a18 18 0 1 0 0 29M24 25h20M24 39h20"
-    fill="none"
-    stroke="#fff"
-    stroke-linecap="round"
-    stroke-width="6"
-  />
+  <g transform="scale(.25)">
+    <path
+      d="M72 34h136c20 0 36 16 36 36v92c0 20-16 36-36 36h-52l-43 36 12-36H72c-20 0-36-16-36-36V70c0-20 16-36 36-36Z"
+      fill="#4263eb"
+    />
+    <g fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10">
+      <path d="M86 86 194 150" />
+      <path d="m194 86-108 64" />
+    </g>
+    <g fill="#fff">
+      <circle cx="86" cy="86" r="10" />
+      <circle cx="194" cy="86" r="10" />
+      <circle cx="86" cy="150" r="10" />
+      <circle cx="194" cy="150" r="10" />
+    </g>
+    <circle cx="140" cy="118" r="12" fill="#9cf0d0" />
+  </g>
 </svg>

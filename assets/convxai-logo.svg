@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 280" role="img" aria-labelledby="title description">
+  <title id="title">ConvXAI</title>
+  <desc id="description">A cobalt conversation bubble containing a node-based X beside the ConvXAI wordmark.</desc>
+  <style>
+    .wordmark { fill: #15233b; }
+    .tagline { fill: #667085; }
+    @media (prefers-color-scheme: dark) {
+      .wordmark { fill: #f8fafc; }
+      .tagline { fill: #cbd5e1; }
+    }
+  </style>
+
+  <path
+    d="M72 34h136c20 0 36 16 36 36v92c0 20-16 36-36 36h-52l-43 36 12-36H72c-20 0-36-16-36-36V70c0-20 16-36 36-36Z"
+    fill="#4263eb"
+  />
+
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10">
+    <path d="M86 86 194 150" />
+    <path d="m194 86-108 64" />
+  </g>
+  <g fill="#fff">
+    <circle cx="86" cy="86" r="10" />
+    <circle cx="194" cy="86" r="10" />
+    <circle cx="86" cy="150" r="10" />
+    <circle cx="194" cy="150" r="10" />
+  </g>
+  <circle cx="140" cy="118" r="12" fill="#9cf0d0" />
+
+  <text
+    class="wordmark"
+    x="292"
+    y="134"
+    font-family="Inter, Manrope, ui-sans-serif, system-ui, sans-serif"
+    font-size="76"
+    font-weight="720"
+    letter-spacing="-3"
+  >
+    Conv<tspan fill="#4263eb" font-weight="800">XAI</tspan>
+  </text>
+  <text
+    class="tagline"
+    x="296"
+    y="178"
+    font-family="Inter, Manrope, ui-sans-serif, system-ui, sans-serif"
+    font-size="18"
+    font-weight="650"
+    letter-spacing="3.4"
+  >
+    CONVERSATIONAL EXPLAINABLE AI
+  </text>
+</svg>

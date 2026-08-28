@@ -2,6 +2,10 @@
 
 [![CI](https://github.com/Naviden/ConvXAI/actions/workflows/ci.yml/badge.svg)](https://github.com/Naviden/ConvXAI/actions/workflows/ci.yml)
 
+<p align="center">
+  <img src="assets/convxai-logo.svg" alt="ConvXAI logo" width="720" />
+</p>
+
 ConvXAI is a reproducible reference implementation of **conversational explainable AI**:
 instead of navigating an explainer dashboard, a user selects a dataset and model and asks
 questions about predictions in plain language.
