@@ -9,3 +9,22 @@ authors:
   - family-names: Nobani
     given-names: Navid
 repository-code: "https://github.com/Naviden/ConvXAI"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Malandri
+      given-names: Lorenzo
+    - family-names: Mercorio
+      given-names: Fabio
+    - family-names: Mezzanzanica
+      given-names: Mario
+    - family-names: Nobani
+      given-names: Navid
+  title: "ConvXAI: a System for Multimodal Interaction with Any Black-box Explainer"
+  journal: Cognitive Computation
+  volume: 15
+  issue: 2
+  start: 613
+  end: 644
+  year: 2023
+  doi: "10.1007/s12559-022-10067-7"

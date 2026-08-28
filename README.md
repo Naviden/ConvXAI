@@ -128,7 +128,28 @@ pretrained NLU models. Its frozen Python 3.7 environment and generated model art
 only to make the project history inspectable. Do not deploy the legacy servers or load their pickle
 files in an untrusted environment.
 
-## Citation and license
+## Citation
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). ConvXAI is released under the MIT
-License; see [`LICENSE`](LICENSE).
+The research system is described in the
+[ConvXAI paper](https://doi.org/10.1007/s12559-022-10067-7). If you use this repository in academic
+work, please cite:
+
+```bibtex
+@article{malandri2023convxai,
+  title     = {ConvXAI: a System for Multimodal Interaction with Any Black-box Explainer},
+  author    = {Malandri, Lorenzo and Mercorio, Fabio and Mezzanzanica, Mario and Nobani, Navid},
+  journal   = {Cognitive Computation},
+  volume    = {15},
+  number    = {2},
+  pages     = {613--644},
+  year      = {2023},
+  publisher = {Springer},
+  doi       = {10.1007/s12559-022-10067-7}
+}
+```
+
+Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff).
+
+## License
+
+ConvXAI is released under the MIT License; see [`LICENSE`](LICENSE).
