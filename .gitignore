@@ -1,8 +1,15 @@
-/Users/navid/Documents/rasa_practice/XAIBot_V1/.vscode
 .DS_Store
-*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
 *.zip
-node_modules
-.DS_Store
+artifacts/
+build/
+dist/
+node_modules/
+
+# Legacy prototype artifacts
 /contrastive_explanation
 APP_TEST/

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "ConvXAI: A Reproducible Conversational Explainable AI Reference Implementation"
+type: software
+version: 0.1.0
+date-released: 2026-08-28
+license: MIT
+authors:
+  - family-names: Nobani
+    given-names: Navid
+repository-code: "https://github.com/Naviden/ConvXAI"

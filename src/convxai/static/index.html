@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="ConvXAI conversational explainable AI reference interface" />
+    <title>ConvXAI</title>
+    <link rel="icon" href="/static/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header>
+        <div>
+          <p class="eyebrow">Reproducible conversational XAI</p>
+          <h1>ConvXAI</h1>
+        </div>
+        <button id="reset" class="secondary" type="button">New conversation</button>
+      </header>
+
+      <section class="context" aria-label="Research context">
+        <span>Deterministic models</span>
+        <span>Built-in datasets</span>
+        <span>Explicit explanation methods</span>
+      </section>
+
+      <section id="messages" class="messages" aria-live="polite"></section>
+      <section id="options" class="options" aria-label="Suggested responses"></section>
+
+      <form id="composer" class="composer">
+        <label class="sr-only" for="question">Ask ConvXAI a question</label>
+        <input id="question" autocomplete="off" placeholder="Ask why, predict, or run a what-if…" />
+        <button type="submit">Send</button>
+      </form>
+      <p class="note">Explanations describe model behavior and are not causal conclusions.</p>
+    </main>
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>
